@@ -2,8 +2,10 @@
 
 * {
   font-family: 'Poppins', sans-serif;
+  font-size: large;
+  color-scheme: light;
+  color: black;
   text-decoration: none;
-  background-color: transparent;
   border: 0px none;
   outline: 0px none;
   margin: 0;
@@ -40,14 +42,19 @@ li {
   grid-template-areas: "main-panel side-top"
     "main-panel side-middle"
     "main-panel side-bottom"
+    "main-panel side-text"
     "page-footer page-footer";
   grid-template-columns: 75% auto;
-  grid-template-rows: 30% 30% auto 10%;
+  grid-template-rows: 25% 25% 25% auto 7%;
 }
 
 .main-panel {
   grid-area: main-panel;
   padding-right: 1rem;
+}
+
+.side-text {
+  grid-area: side-text;
 }
 
 .side-top {
@@ -62,6 +69,7 @@ li {
 
 .side-bottom {
   grid-area: side-bottom;
+  padding-bottom: 1rem;
 }
 
 .page-footer {
