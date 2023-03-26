@@ -5,49 +5,100 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>[Artist's Name] Art Gallery</title>
+        <title>Artist' Art Gallery</title>
         <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"
-            referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
     </head>
 
     <body>
-        <div class="container">
-            <div class="main-panel">
-                <img src="https://images.pexels.com/photos/1266808/pexels-photo-1266808.jpeg?auto=compress&cs=tinysrgb&dpr=1&auto=format&fit=crop&w=800&h=728"
-                    alt="/" />
+        <div class="off-canvas-content">
+            <div class="columns">
+                <div class="container">
+                    <ul class="tab tab-block">
+                        <li class="tab-item">
+                            <a href="/" class="btn btn-link"><i class="icon icon-menu"></i>&nbsp;Gallery</a>
+                        </li>
+                        <li class="tab-item">
+                            <a href="/pages/paintings.html" class="btn btn-link"><i class="icon icon-photo"></i>&nbsp;Paintings</a>
+                        </li>
+                        <li class="tab-item">
+                            <a href="/pages/pencil.html" class="btn btn-link"><i class="icon icon-photo"></i>&nbsp;Pencil</a>
+                        </li>
+                        <li class="tab-item">
+                            <a href="/pages/rockart.html" class="btn btn-link"><i class="icon icon-photo"></i>&nbsp;Rock art</a>
+                        </li>
+                        <li class="tab-item">
+                            <a href="/pages/about.html" class="btn btn-link"><i class="icon icon-people"></i>&nbsp;About</a>
+                        </li>
+                        <li class="tab-item active">
+                            <a href="/pages/exhibitions.html" class="btn btn-link"><i class="icon icon-location"></i>&nbsp;Exhibitions</a>
+                        </li>
+                        <li class="tab-item">
+                            <a href="/pages/contact.html" class="btn btn-link"><i class="icon icon-message"></i>&nbsp;Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-
-            <div class="side-top">
-                <img src="https://images.pexels.com/photos/1981468/pexels-photo-1981468.jpeg?auto=compress&cs=tinysrgb&dpr=1&auto=format&fit=crop&w=400&h=400"
-                    alt="/" />
-            </div>
-
-            <div class="side-middle">
-                <img src="https://images.pexels.com/photos/2983262/pexels-photo-2983262.jpeg?auto=compress&cs=tinysrgb&dpr=1&auto=format&fit=crop&w=400&h=400"
-                    alt="/" />
-            </div>
-
-            <div class="side-bottom">
-                <img src="https://images.pexels.com/photos/1997484/pexels-photo-1997484.jpeg?auto=compress&cs=tinysrgb&dpr=1&auto=format&fit=crop&w=400&h=400"
-                    alt="/" />
-            </div>
-
-            <div class="side-text">
-                Welcome to [Artist's Name] Art Gallery! 🎨 Explore my vibrant collection of masterpieces and be inspired by the
-                captivating world of creativity. Enjoy your artistic journey with me!
-            </div>
-
-            <div class="page-footer">
-                <ul class="menu">
-                    <li> <a href="/">Gallery</a> </li>
-                    <li> <a href="/pages/about.html">About</a> </li>
-                    <li> <a href="/pages/exhibitions.html">Exhibitions</a> </li>
-                    <li> <a href="/pages/terms.html">Terms</a> </li>
-                    <li> <a href="/pages/contact.html">Contact</a> </li>
-                </ul>
-
+            <div class="columns">
+                <div class="column col-8 col-xs-12">
+                    <div class="container">
+                        <img src="https://images.pexels.com/photos/4396101/pexels-photo-4396101.jpeg?auto=compress&cs=tinysrgb&nrs&fit=crop&w=800&h=598&txt=Welcome%20to%20Artist's%20Art%20Gallery!&txt-align=top,center&txt-font=Chalkboard,bold&txt-size=48&txt-color=000000&txt-line-color=ffffff&txt-line=3"
+                            alt="/" />
+                    </div>
+                    <div class="container">
+                        <h2
+                            style="position: relative; width: 100%; margin-top: -15%; margin-left: 2%; font-size: 1.7vi; color: black; text-shadow:3px 3px 6px white;">
+                            Embark on a visual journey through our carefully curated collection of Artist's enchanting masterpieces. From striking landscapes to
+                            vivid
+                            abstracts, her work transports viewers into a world where emotions, memories, and imagination intertwine to create a captivating
+                            narrative.
+                        </h2>
+                    </div>
+                </div>
+                <div class="column col-4 col-xs-12">
+                    <div class="container">
+                        <div class="container">
+                            <a href="/pages/paintings.html"><img
+                                    src="https://images.pexels.com/photos/2559741/pexels-photo-2559741.jpeg?auto=compress&cs=tinysrgb&nrs&fit=crop&w=400&h=90&txt=painting&txt-font=Chalkboard,bold&txt-size=48&txt-color=000000&txt-line-color=ffffff&txt-line=3"
+                                    alt="/" /></a>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="container">
+                            <a href="/pages/pencil.html"><img
+                                    src="https://images.pexels.com/photos/820673/pexels-photo-820673.jpeg?auto=compress&cs=tinysrgb&nrs&fit=crop&w=400&h=90&txt=pencil&txt-font=Chalkboard,bold&txt-size=48&txt-color=000000&txt-line-color=ffffff&txt-line=3"
+                                    alt="/" /></a>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="container">
+                            <a href="/pages/rockart.html"><img
+                                    src="https://images.pexels.com/photos/1628230/pexels-photo-1628230.jpeg?auto=compress&cs=tinysrgb&nrs&fit=crop&w=400&h=90&txt=rock%20art&txt-font=Chalkboard,bold&txt-size=48&txt-color=000000&txt-line-color=ffffff&txt-line=3"
+                                    alt="/" /></a>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="container">
+                            <a href="/pages/about.html"><img
+                                    src="https://images.pexels.com/photos/1084406/pexels-photo-1084406.jpeg?auto=compress&cs=tinysrgb&nrs&fit=crop&w=400&h=90&txt=about&txt-font=Chalkboard,bold&txt-size=48&txt-color=000000&txt-line-color=ffffff&txt-line=3"
+                                    alt="/" /></a>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="container">
+                            <a href="/pages/exhibitions.html"><img
+                                    src="https://images.pexels.com/photos/301930/pexels-photo-301930.jpeg?auto=compress&cs=tinysrgb&nrs&fit=crop&w=400&h=90&txt=exhibitions&txt-font=Chalkboard,bold&txt-size=48&txt-color=000000&txt-line-color=ffffff&txt-line=3"
+                                    alt="/" /></a>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="container">
+                            <a href="/pages/contact.html"><img
+                                    src="https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&nrs&fit=crop&w=400&h=90&txt=contact&txt-font=Chalkboard,bold&txt-size=48&txt-color=000000&txt-line-color=ffffff&txt-line=3"
+                                    alt="/" /></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
